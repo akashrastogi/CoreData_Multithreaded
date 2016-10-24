@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *btnStart;
+- (IBAction)btnStartClicked:(UIButton *)sender;
+
+@property (weak, nonatomic) IBOutlet UILabel *lblLogger;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 

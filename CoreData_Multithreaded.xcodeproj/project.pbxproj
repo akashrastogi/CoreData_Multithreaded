@@ -14,6 +14,8 @@
 		D2BD74551DBDE23100C7054C /* CoreData_Multithreaded.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2BD74531DBDE23100C7054C /* CoreData_Multithreaded.xcdatamodeld */; };
 		D2BD74571DBDE23100C7054C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2BD74561DBDE23100C7054C /* Assets.xcassets */; };
 		D2BD745A1DBDE23100C7054C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2BD74581DBDE23100C7054C /* LaunchScreen.storyboard */; };
+		D2BD74661DBDE7F100C7054C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BD74641DBDE7F100C7054C /* Person.m */; };
+		D2BD74691DBE1CFF00C7054C /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BD74681DBE1CFF00C7054C /* CoreDataStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		D2BD74561DBDE23100C7054C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2BD74591DBDE23100C7054C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2BD745B1DBDE23100C7054C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2BD74631DBDE7F100C7054C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		D2BD74641DBDE7F100C7054C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		D2BD74671DBE1CFF00C7054C /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
+		D2BD74681DBE1CFF00C7054C /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,8 @@
 		D2BD743B1DBDE23000C7054C = {
 			isa = PBXGroup;
 			children = (
+				D2BD74631DBDE7F100C7054C /* Person.h */,
+				D2BD74641DBDE7F100C7054C /* Person.m */,
 				D2BD74461DBDE23000C7054C /* CoreData_Multithreaded */,
 				D2BD74451DBDE23000C7054C /* Products */,
 			);
@@ -70,6 +78,8 @@
 				D2BD745B1DBDE23100C7054C /* Info.plist */,
 				D2BD74531DBDE23100C7054C /* CoreData_Multithreaded.xcdatamodeld */,
 				D2BD74471DBDE23000C7054C /* Supporting Files */,
+				D2BD74671DBE1CFF00C7054C /* CoreDataStack.h */,
+				D2BD74681DBE1CFF00C7054C /* CoreDataStack.m */,
 			);
 			path = CoreData_Multithreaded;
 			sourceTree = "<group>";
@@ -152,10 +162,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2BD74661DBDE7F100C7054C /* Person.m in Sources */,
 				D2BD744F1DBDE23100C7054C /* ViewController.m in Sources */,
 				D2BD74551DBDE23100C7054C /* CoreData_Multithreaded.xcdatamodeld in Sources */,
 				D2BD744C1DBDE23000C7054C /* AppDelegate.m in Sources */,
 				D2BD74491DBDE23000C7054C /* main.m in Sources */,
+				D2BD74691DBE1CFF00C7054C /* CoreDataStack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +316,7 @@
 				D2BD74601DBDE23100C7054C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
